@@ -10,7 +10,7 @@ Technologies:
 * AngularJS
  
 Architecture: 
- TBD
+*  TBD
 
 Planned Features: 
 * Create and Manage Recipes
