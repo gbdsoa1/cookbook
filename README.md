@@ -5,15 +5,26 @@ Overview:
   The goal of this project is develop a cookbook app that is accessible by web, mobile, and service clients. 
 
 Technologies: 
-* Java or Node JS (TBD)
+* Java
+* Spring
+* SpringFox  // swagger ui generation
+* NodeJs
 * Mondgo DB
 * AngularJS
+* Rest
+* Git
+* 
  
 Architecture: 
-*  TBD
+
+[UI Client] --> Browser(angularJs) 
+					|
+						--> [JSON/HTTP:80]---> Container (TBD) ---> uSdS(mongoDb)
+					|
+			[api Consumer]
 
 Planned Features: 
-* Create and Manage Recipes
+* View,Create and Manage Recipes
 * Share Recipes:  email, web urls
 * Collaborate on recipes:  add comments, create recipe variants
 * Rank/Rate recipes
